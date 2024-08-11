@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(30, 38%, 92%);
+    font-size: 0.879rem;
+    font-family: Montserrat;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 17rem;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.side-1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 17rem;
+}
+
+.title-1 {
+    font-family: Montserrat;
+    letter-spacing: 0.2rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+}
+
+.p-name {
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size:x-large;
+    font-weight: 700;
+}
+
+.p-text {
+    font-family: 'Times New Roman', Times, serif;
+    color:  hsl(228, 12%, 48%);
+    font-family: Montserrat;
+}
+
+.p-t {
+    font-family: Fraunces;
+    color:  hsl(228, 12%, 48%);
+    margin-left: 1rem;
+    text-decoration: line-through;
+}
+
+.price-1 {
+    font-family: Fraunces;
+     color:hsl(158, 36%, 37%);
+    font-size: 1.8rem;
+    font-weight: 700;
+   
+}
+
+button {
+    padding: 0.6rem;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 0.5rem;
+    border-color: transparent;
+    color: white;
+    width: 100%;
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+    pointer-events: all;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: hsl(156.32deg 42.22% 17.65%);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cart {
+    border-radius: 0;
+    margin: 0.4rem;
+}
+hr {
+    display: none;
+}
+
+@media screen and (max-width: 49rem) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 22rem;
+    }
+
+    img {
+        width: auto;
+        border-radius: 0;
+        height: 17rem;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        object-fit: cover;
+    }
+
+    .side-1 {
+        border-radius: 0;
+        padding: 1.5rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        width: 22rem;
+    }
+}
+
+.p-tags {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    align-items: center;
+    padding: 0;
+}
+
+hr {
+    display: contents;
+}
