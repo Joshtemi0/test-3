@@ -116,7 +116,7 @@ hr {
         display: flex;
         flex-direction: column;
         justify-items: center;
-        width: 22rem;
+        width: 20rem;
     }
 
     img {
@@ -133,7 +133,7 @@ hr {
         padding: 1.5rem;
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
-        width: 22rem;
+        width: 20rem;
     }
 }
 
